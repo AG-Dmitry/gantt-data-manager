@@ -1,0 +1,39 @@
+{
+  "name": "@ganttDataManager",
+  "version": "1.0.0",
+  "description": "A comprehensive TypeScript library for managing Gantt chart data structures with advanced task scheduling, dependency management, and intelligent search capabilities.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint lib/**/*.ts",
+    "lint:fix": "eslint lib/**/*.ts --fix"
+  },
+  "keywords": [
+    "gantt",
+    "chart",
+    "scheduling",
+    "project-management",
+    "typescript",
+    "data-structures"
+  ],
+  "author": "AG",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
