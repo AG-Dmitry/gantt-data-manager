@@ -1,6 +1,6 @@
 {
   "name": "@ganttDataManager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comprehensive TypeScript library for managing Gantt chart data structures with advanced task scheduling, dependency management, and intelligent search capabilities.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

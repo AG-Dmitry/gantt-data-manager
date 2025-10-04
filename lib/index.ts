@@ -1,9 +1,12 @@
 import AdjacencyList from './adjacencyList';
 import { createRenderMap } from './renderMap';
-import { validateInput, validateDateForStorage } from './modules/inputSecurity';
+import { validateInput, validateDateForStorage } from './modules/inputValidation';
 import { getMaxLsp } from './modules/kmpSearch';
 import { ApiError, Color } from './constants';
 import { ganttElement, entryNode } from './types';
+
+// Pass Color enum to to make it available via import index file';
+export { Color };
 
 // ==================== API ====================
 

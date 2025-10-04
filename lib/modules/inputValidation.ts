@@ -34,7 +34,7 @@ const CONTROL_CHARS = /[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g;
  */
 const DEFAULT_VALIDATION_OPTIONS: Required<ValidationOptions> = {
   maxLength: 100,
-  allowHtml: false,
+  allowHtml: true,
   trimWhitespace: true,
   allowEmptyString: true,
 };

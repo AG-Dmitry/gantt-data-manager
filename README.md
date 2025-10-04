@@ -17,7 +17,8 @@ The Gantt Data Manager provides a robust foundation for building Gantt chart app
 
 ## Installation
 
-Add to the modules of your project manually.
+No npm support yet. Add to the modules of your project manually. Normally this library should be located
+on the server side as an util and executed between receiving http request and saving data to the database.
 
 **Version:** 1.0.0  
 **Node.js:** >=14.0.0  
